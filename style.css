@@ -1,12 +1,44 @@
 #logo {
-    width: 160px;
-    height: 70px;
-}
-#header {
-    width: 800px;
-    height: 400px;
+    width: 85.35px; /* initial width */
+    height: 52.35px; /* initial height */
+  }
+
+#bg-photo {
+width: 1021px; /* initial width */
+height: 641px; /* initial height */
+transform: scale(0.6); /* reduce by 20% */
 }
 
 .container {
     background-color: #1F2937;
+}
+
+.left-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    list-style-type: none;
+    
+}
+p,ul {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.section-1 {
+    display: flex;
 }
