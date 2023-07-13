@@ -3,6 +3,14 @@
     height: 52.35px; /* initial height */
   }
 
+.header-logo-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size:24px;
+    color: #f9faf8;
+    }
+
 #bg-photo {
 width: 1021px; /* initial width */
 height: 641px; /* initial height */
@@ -10,7 +18,11 @@ transform: scale(0.6); /* reduce by 20% */
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #1F2937;
+    padding: 30px;
 }
 
 .left-links {
@@ -18,7 +30,7 @@ transform: scale(0.6); /* reduce by 20% */
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 30px;
 }
 #hero-text {
     font-size: 48px;
@@ -41,4 +53,22 @@ p,ul {
 
 .section-1 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+.part-1 {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 130px;
+    height: 50px;
+    border-radius: 15px 15px;
+    background-color: #3882f6;
+    font-weight: bold;
+    color: #e5e7eb;
+    font-size: 18px;
 }
