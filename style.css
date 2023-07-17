@@ -1,3 +1,12 @@
+.secondary-text {
+    padding: 0px;
+    margin-bottom: 15px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 #logo {
     width: 85.35px; /* initial width */
     height: 52.35px; /* initial height */
@@ -22,6 +31,7 @@ height: 320.5px; /* initial height */
     justify-content: center;
     background-color: #1F2937;
     padding: 30px;
+    
 }
 
 .left-links {
@@ -84,6 +94,7 @@ button {
     gap: 42px;
     justify-content: center;
     align-items: center;
+   
 }
 
 .information {
@@ -102,13 +113,17 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
+   
 }
+
+
 
 .container-3 {
     display: flex;
     background-color: #e5e7eb;
     flex-direction: column;
-    padding: 150px;
+    padding: 100px;
+    padding-bottom: 0;
 }
 
 .quote {
@@ -125,4 +140,45 @@ button {
     font-weight: bolder;
     font-size:24px;
     color: #1F2937;
+}
+
+.call-to-action ul {
+    flex-direction: column;
+    
+}
+
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px;
+    margin-left: ;
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+#call-us {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+#call-us-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 30px;
+    background-color: #1F2937;
+}
+
+body {
+    margin: 0;
 }
